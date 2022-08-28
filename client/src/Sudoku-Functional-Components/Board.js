@@ -22,8 +22,12 @@ class Board extends React.Component {
     return (
       <div>
         {flatArray.map((cell, index) => (
-          <div>{cell.show()}</div>
+          <div>
+            {!(index % 9) ? <hr></hr> : <div></div>}
+            {cell.show()}
+          </div>
         ))}
+        <hr></hr>
       </div>
     );
   }
