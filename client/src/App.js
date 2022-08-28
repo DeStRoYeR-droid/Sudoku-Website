@@ -1,9 +1,11 @@
-import SudokuSolver from "./Sudoku-Functional-Components/SudokuSolver";
+import Board from "./Sudoku-Functional-Components/Board";
+import Cell from "./Sudoku-Functional-Components/Cell";
 
 function App() {
   return (
     <div className="">
-      <SudokuSolver />
+      <Board />
+      <Cell />
       Changes to be made here
     </div>
   );

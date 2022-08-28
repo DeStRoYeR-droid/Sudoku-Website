@@ -1,7 +1,7 @@
 import React from "react";
 
 function SudokuSolver() {
-  return <div>SudokuSolver</div>;
+  return <div className="">SudokuSolver</div>;
 }
 
 export default SudokuSolver;
